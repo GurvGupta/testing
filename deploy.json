@@ -1,0 +1,22 @@
+{
+  "database": {
+    "host": "db.example.com",
+    "port": 3306,
+    "user": "root",
+    "password": "myS3cr3tPass!"
+  },
+  "google_cloud": {
+    "project_id": "my-test-project",
+    "private_key_id": "1234567890abcdef1234567890abcdef12345678",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqh...\n-----END PRIVATE KEY-----",
+    "client_email": "my-service-account@my-test-project.iam.gserviceaccount.com",
+    "client_id": "123456789012345678901"
+  },
+  "sendgrid": {
+    "api_key": "SG.xxxxx.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+  },
+  "twilio": {
+    "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "auth_token": "your_auth_token_1234567890"
+  }
+}
